@@ -1,5 +1,5 @@
-appId: 'helioslauncher'
-productName: 'Helios Launcher'
+appId: 'TSCommunityModServers.helioslauncher'
+productName: 'TSCommunityModServers Launcher(Helios)'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2024 Daniel Scalzi'
@@ -21,10 +21,10 @@ win:
 
 # Windows Installer Configuration
 nsis:
-  oneClick: false
+  oneClick: true
   perMachine: false
   allowElevation: true
-  allowToChangeInstallationDirectory: true
+  allowToChangeInstallationDirectory: false
 
 # macOS Configuration
 mac:
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Daniel Scalzi'
-  vendor: 'Daniel Scalzi'
-  synopsis: 'Modded Minecraft Launcher'
-  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
+  maintainer: 'TSCommunityModServers'
+  vendor: 'TSCommunityModServers'
+  synopsis: '模組服務啟動器'
+  description: '允許玩家加入模組化伺服器。所有的模組、配置都會自動更新，只要登入即可遊玩'
   category: 'Game'
 
 
