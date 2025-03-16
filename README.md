@@ -1,3 +1,11 @@
+# 介紹
+
+這啟動器是Helios Launcher的分支，在此我想感謝小誠的技術指導及dscalzi(https://github.com/dscalzi)的開源維護。
+此分支為TS模組伺服器的臨時啟動器。
+
+
+以下為Helios Launcher的原本介紹
+
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
 <h1 align="center">Helios Launcher</h1>
