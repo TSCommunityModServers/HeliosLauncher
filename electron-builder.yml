@@ -6,6 +6,8 @@ copyright: 'Copyright © 2018-2024 Daniel Scalzi'
 
 publish:
   provider: github
+  owner: TSCommunityModServers
+  repo: HeliosLauncher
   releaseType: release
 
 asar: true
